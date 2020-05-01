@@ -30,6 +30,8 @@ const Gallery = ({ images }) => {
 
           <h3>{obj.caption}</h3>
           <p>{obj.description}</p>
+          <p>{obj.more}</p>
+          <a href={obj.link} target='_blank'>Check it out</a>
         </article>
       )
     })
